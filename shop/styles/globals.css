@@ -13,7 +13,7 @@
 }
 
 body{
-  background-color: var(--accent);
+  background-color: var(--bg);
 }
 
 .shop-icon{
@@ -151,4 +151,74 @@ a{
   .item-desc{
     width: 60vw;
   }
+}
+
+  /* slider */
+
+.quantity-slider{
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.img-container{
+  display: inline-block;
+  padding: 50px;
+  margin: 60px 80px;
+  border-radius: 0.25rem;
+  background-color: var(--accent);
+  height: 80vh;
+box-shadow:  24px 24px 27px #1e2c3b,
+             -24px -24px 27px #202e3f;
+}
+
+.quantity{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  color: #ebc694;
+  font-size: 25px;
+  text-transform: lowercase;
+  font-weight: 900;
+  text-align: center;
+}
+
+.right-content{
+  display: inline-block;
+  position: absolute;
+  height: 80vh;
+}
+
+.truck{
+  margin: 60px 0;
+  position: relative;
+  top: 0;
+  display: flex;
+  width: 35vh;
+  height: 35vh;
+  background-color: var(--accent);
+  padding: 10px 20px;
+  border-radius: 0.45rem;
+}
+
+.datepickerContain{
+  text-align: center;
+  width: 35vh;
+  height: 35vh;
+  background-color: var(--accent);
+  padding: 10px 20px;
+  border-radius: 0.35rem;
+}
+.datehead{
+  color: #3a132a;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-transform: lowercase;
+  font-weight: 900;
+  margin: 0 0 17px 0;
+  text-align: center;
+}
+
+.float-right{
+  float: right;
+  padding: 0 40px;
 }

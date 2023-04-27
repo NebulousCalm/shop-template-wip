@@ -10,6 +10,7 @@ import five from '../public/fifth.svg';
 import six from '../public/sixth.svg';
 
 export default function Home() {
+  
   return (
     <main>
       <Head>
@@ -21,18 +22,18 @@ export default function Home() {
       <Link href="/shop"><button className="material-symbols-outlined shop-icon">shopping_cart</button></Link>
 
       <div className="topnav">
-        <span className="topnav-text">Top navigation content was supposed to be here but im tired</span>
+        <span className="topnav-text">Online Shop Template in Nextjs</span>
       </div>
 
       <div className="item-tab">
         <Image src={secondSampleImg} className="item-image"></Image>
         <h1 className="item-name">
-          Full stack team 
+          Developer Team 
         </h1>
         <h2 className="item-price"><span className="cost">$35</span> an hour</h2>
         <hr />
-        <p className="item-desc">Our full stack development team can roll out websites professionally, safely, and to your needs</p>
-        <Link href="#" class="button">Hire us</Link>
+        <p className="item-desc">Our development team can roll out websites/apps/projects professionally, safely, and to your needs.</p>
+        <Link href="/products/dev" className="button">Explore</Link>
       </div>
 
       <div className="item-tab">
@@ -42,8 +43,8 @@ export default function Home() {
         </h1>
         <h2 className="item-price"><span className="cost">$145</span> per lesson</h2>
         <hr/>
-        <p className="item-desc">Learn to soar in the clouds up high with our experienced flight classes</p>
-        <Link href="#" class="button">Enroll</Link>
+        <p className="item-desc">Learn to soar in the clouds up high with our experienced flight classes.</p>
+        <Link href="#" className="button">Enroll</Link>
       </div>
 
       <div className="item-tab">
@@ -53,8 +54,8 @@ export default function Home() {
         </h1>  
         <h2 className="item-price"><span className="cost">$25</span> per class</h2>
         <hr/>
-        <p className="item-desc">Dive into the rich world of cryptocurrency in Bitcoin in our cryptocurrency 101 program</p>
-        <Link href="#" class="button">Sign up</Link>
+        <p className="item-desc">Dive into the rich world of cryptocurrency in Bitcoin in our cryptocurrency 101 program.</p>
+        <Link href="#" className="button">Sign up</Link>
       </div>
 
       <div className="item-tab">
@@ -64,8 +65,8 @@ export default function Home() {
         </h1>  
         <h2 className="item-price"><span className="cost">$0</span> per episode</h2>
         <hr/>
-        <p className="item-desc">Listen to our high quality always entertaining podcasts for free</p>
-        <Link href="#" class="button">Listen</Link>
+        <p className="item-desc">Listen to our high quality always entertaining podcasts for free.</p>
+        <Link href="#" className="button">Listen</Link>
       </div>
 
       <div className="item-tab">
@@ -75,8 +76,8 @@ export default function Home() {
         </h1>  
         <h2 className="item-price"><span className="cost">varies</span> per book</h2>
         <hr/>
-        <p className="item-desc">Delve into our rich library of online books, curated for every reader</p>
-        <Link href="#" class="button">Read</Link>
+        <p className="item-desc">Delve into our rich library of online books, curated for every reader.</p>
+        <Link href="#" className="button">Read</Link>
       </div>
 
       <div className="item-tab">
@@ -86,10 +87,9 @@ export default function Home() {
         </h1>  
         <h2 className="item-price"><span className="cost">$10-55</span> per item</h2>
         <hr/>
-        <p className="item-desc">See our various options for shipping our products safely with tracking</p>
-        <Link href="#" class="button">Take a look</Link>
+        <p className="item-desc">See our various options for shipping our products safely with tracking.</p>
+        <Link href="/products/packaging" className="button">Take a look</Link>
       </div>
-    
     </main>
   )
 }
